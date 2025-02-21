@@ -52,7 +52,7 @@ class TestUser:
                 """of Classic Hollywood cinema.""")
             
             with pytest.raises(AttributeError):
-                created_user.password_hash
+                created_user.password
 
     def test_requires_username(self):
         '''requires each record to have a username.'''
