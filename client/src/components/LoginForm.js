@@ -8,6 +8,7 @@ function LoginForm({ onLogin }) {
   const [isLoading, setIsLoading] = useState(false);
 
   function handleSubmit(e) {
+    
     e.preventDefault();
     setIsLoading(true);
     fetch("/login", {

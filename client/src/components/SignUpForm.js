@@ -11,6 +11,7 @@ function SignUpForm({ onLogin }) {
   const [isLoading, setIsLoading] = useState(false);
 
   function handleSubmit(e) {
+    
     e.preventDefault();
     setErrors([]);
     setIsLoading(true);

@@ -6,6 +6,7 @@ import RecipeList from "../pages/RecipeList";
 import NewRecipe from "../pages/NewRecipe";
 
 function App() {
+  
   const [user, setUser] = useState(null);
 
   useEffect(() => {
